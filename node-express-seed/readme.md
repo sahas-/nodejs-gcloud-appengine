@@ -60,7 +60,6 @@ gcloud app create
 
 `npm run deploy` - this will take the entire app, deploy to google cloud app engine and start the server
 
-- To shutdown the project, https://cloud.google.com/appengine/docs/python/console/#managing_cookies_authentication_and_logs_retention
 
 ### To run load test
 
@@ -70,4 +69,4 @@ This example uses apache benchmark (1000 requests with 5 users concurrency)
 `ab -n 10000 -c 100 http://localhost:8080/factorial/110`
 
 
-
+- To shutdown the project, https://cloud.google.com/appengine/docs/python/console/#managing_cookies_authentication_and_logs_retention
